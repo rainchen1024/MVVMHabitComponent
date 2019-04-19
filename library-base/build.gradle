@@ -40,4 +40,8 @@ dependencies {
     api rootProject.ext.dependencies.MVVMHabit
     //阿里路由框架
     api rootProject.ext.dependencies["arouter-api"]
+    api rootProject.ext.dependencies["android-utils"]
+//    api rootProject.ext.dependencies["android-lifecycle-runtime"]
+//    api rootProject.ext.dependencies["dagger"]
+//    annotationProcessor rootProject.ext.dependencies["dagger-compiler"]
 }

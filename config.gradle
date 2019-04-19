@@ -1,17 +1,17 @@
 ext {
     //android开发版本配置
     android = [
-            compileSdkVersion: 27,
-            buildToolsVersion: "27.0.2",
-            applicationId    : "com.goldze.component",
-            minSdkVersion    : 15,
-            targetSdkVersion : 27,
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            applicationId    : "com.ivy.soku",
+            minSdkVersion    : 17,
+            targetSdkVersion : 28,
             versionCode      : 1,
-            versionName      : "1.0",
+            versionName      : "1.0.0",
     ]
     //version配置
     versions = [
-            "support-version": "27.0.2",
+            "support-version": "28.0.0",
             "junit-version"  : "4.12",
     ]
     //support配置
@@ -33,6 +33,10 @@ ext {
             //阿里路由框架
             "arouter-api"                          : "com.alibaba:arouter-api:1.4.1",
             "arouter-compiler"                     : "com.alibaba:arouter-compiler:1.2.2",
+            "android-utils"                         :"com.blankj:utilcode:1.23.7",
+//            "android-lifecycle-runtime"             :"android.arch.lifecycle:runtime:1.1.1",
+//            "dagger"                                :"com.google.dagger:dagger:2.22.1",
+//            "dagger-compiler"                       :"com.google.dagger:dagger-compiler:2.22.1"
     ]
 }
 
